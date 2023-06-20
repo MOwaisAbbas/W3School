@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: #282a35;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 53%;
+    display: flex;
+}
+
+.box2 {
+    display: flex;
+    width: 10%;
+}
+
+
+h1>img {
+    padding: 15px 15px 15px 25px;
+    width: 45px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-li1 {
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 28px 13px;
+}
+
+.main-li1:hover {
+    background-color: #04aa6d;
+    color: #ffffff;
+}
+
+.main-li1,
+.main-li {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.main-li {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 28px 13px;
+
+
+}
+
+a.main-li:hover {
+    background-color: #04aa6d;
+    color: #ffffff;
+
+}
+
+li>a>img {
+    width: 18px;
+    padding: 25px 15px;
+}
+
+.box3 {
+    width: 37%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 250px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    height: 60%;
+    padding: 15px 17px;
+}
+
+.btn1 {
+    background-color: #282a35;
+    color: #ffffff;
+
+}
+
+.btn1:hover {
+    cursor: pointer;
+    background-color: #40414a;
+    color: #ffffff;
+
+}
+
+.btn2 {
+    background-color: #ffc0c7;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background-color: #eda3ac;
+}
+
+.btn3 {
+    background-color: #fff4a3;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    background-color: #f4e67e;
+}
+
+.btn4 {
+    background-color: #04aa6d;
+    width: 130px;
+    color: #ffffff;
+}
+
+.btn4:hover {
+    cursor: pointer;
+    background-color: #059862;
+    width: 130px;
+    color: #ffffff;
+}
+
+
+
+.mainbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+div.container {
+    width: 600px;
+
+    margin-top: 88px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+div.container>h2 {
+    color: #ffffff;
+    font-size: 4em;
+}
+
+div.container>p {
+    color: #ffc0c7;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.container>a {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+div.container>a:hover {
+    color: #04aa6d;
+
+}
+
+div.form {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+div.form>input {
+    margin-top: 10px;
+    margin-right: 0px;
+    width: 400px;
+    padding: 10px 30px;
+    font-size: 19px;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+
+}
+
+div.form>button>img {
+    margin-top: 5px;
+
+    background-color: #04aa6d;
+    width: 30px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    margin-left: 0px;
+}
+
+div.form>button {
+    margin-top: 11px;
+
+    background-color: #04aa6d;
+    border: none;
+
+    width: 115px;
+    height: 44px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    margin-left: -6px;
+}
+
+div.form>button:hover,
+div.form>button>img:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .btn1 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .btn2 {
+        display: none;
+    }
+
+    .box1 {
+        width: 60%;
+    }
+
+    .box3 {
+        width: 27%;
+    }
+
+}
+
+@media screen and (max-width: 1110px) {
+    .btn3 {
+        display: none;
+    }
+
+    .box3 {
+        width: 12%;
+    }
+
+    .box2 {
+        width: 38%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .box1 {
+        width: 175%;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .main-li {
+        display: none;
+    }
+
+    .main-li1 {
+        display: inline-block;
+    }
+
+    .box1 {
+        width: 20%;
+    }
+
+    .box2 {
+        width: 60%;
+    }
+
+    .box3 {
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .icnhide {
+        display: none;
+    }
+
+    div.container>h2 {
+        font-size: 3em;
+    }
+
+    .box1 {
+        width: 36%;
+    }
+    .box2{width: 37%;}
+    .box3{width: 30%;}
+
+}
